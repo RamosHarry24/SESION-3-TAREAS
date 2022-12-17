@@ -1,0 +1,29 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Danfersinho",
+  "age" : "23",
+  "email": "locoIG@gmail.com"
+}
+
+###
+Get http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/639ceb18c239ed4f42f6e323 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/639ceb18c239ed4f42f6e323 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Danfer",
+  "age" : "23",
+  "email": "locoIG@gmail.com"
+}
+
+###
+DELETE http://localhost:9000/api/users/639ce8d6b6bbe22202ae280b HTTP/1.1
+
